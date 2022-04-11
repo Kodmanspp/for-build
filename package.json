@@ -9,9 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.0",
+    "@mui/material": "^5.6.0",
+    "@reduxjs/toolkit": "^1.8.1",
+    "antd": "^4.19.3",
+    "axios": "^0.26.1",
+    "formik": "^2.2.9",
+    "nanoid": "^3.3.2",
     "next": "12.1.4",
+    "node-sass": "^7.0.1",
+    "prettier": "^2.6.2",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "react-redux": "^7.2.8",
+    "redux-persist": "^6.0.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "eslint": "8.13.0",

@@ -1,0 +1,186 @@
+.navbar_wrapper {
+  .navbar_info {
+    background-color: #6b6b6b;
+    height: 50px;
+    color: #fff;
+    padding: 0 120px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 768px) {
+      padding: 0 20px;
+    }
+    img {
+      cursor: pointer;
+    }
+    .select_wrapper {
+      select {
+        color: #fff;
+        background: none;
+        outline: none;
+        border: none;
+        font-size: 18px;
+      }
+    }
+    .left_side {
+      display: flex;
+      .info_wrapper {
+        padding: 0 46px;
+        display: flex;
+        align-items: center;
+        span {
+          margin-left: 10px;
+        }
+        @media screen and (max-width: 622px) {
+          font-size: 12px;
+          padding: 0 20px;
+        }
+      }
+      .phone_wrapper {
+        display: flex;
+        align-items: center;
+        span {
+          margin-left: 10px;
+        }
+        @media screen and (max-width: 622px) {
+          font-size: 12px;
+        }
+      }
+      .select_wrapper {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  .navbar_action {
+    background-color: #1f6d70;
+    height: 60px;
+    padding: 0 120px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 1240px) {
+      padding: 0 80px;
+    }
+    @media screen and (max-width: 1070px) {
+      padding: 0 50px;
+      justify-content: space-around;
+    }
+    @media screen and (max-width: 678px) {
+      padding: 0;
+      min-width: 100%;
+    }
+    img {
+      cursor: pointer;
+    }
+    .logo_navbar {
+      display: flex;
+      justify-content: center;
+      height: 100%;
+    }
+    .right_side {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 50%;
+      .navbar_burger {
+        display: none;
+        height: 50px;
+        padding: 0 80px;
+        cursor: pointer;
+        @media screen and (max-width: 840px) {
+          display: flex;
+          padding: 0;
+          button {
+            display: flex;
+            align-items: center;
+            background-color: rgba(75, 183, 255, 0.534);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+            outline: none;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            font-size: 30px;
+          }
+        }
+      }
+      .search_wrapper {
+        .search_inp {
+          border: none;
+          outline: none;
+          background: inherit;
+          border-bottom: 2px solid #fff;
+          color: #fff;
+          position: relative;
+          padding-left: 25px;
+          font-size: 18px;
+          &::placeholder {
+            color: #fff;
+            margin-right: 20px;
+          }
+        }
+        .search_img {
+          position: absolute;
+        }
+      }
+      .profile_wrapper {
+        @media screen and (max-width: 840px) {
+          display: none;
+        }
+      }
+      .favorite_wrapper {
+        @media screen and (max-width: 840px) {
+          display: none;
+        }
+      }
+      .cart_wrapper {
+        @media screen and (max-width: 840px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+.navbar_routes_wrapper {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  .navbar {
+    height: 30px;
+  }
+  .navbar_routes {
+    padding: 0 170px;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    @media screen and (max-width: 1240px) {
+      padding: 0 120px;
+    }
+    @media screen and (max-width: 1070px) {
+      padding: 0 50px;
+    }
+    @media screen and (max-width: 840px) {
+      display: none;
+    }
+    align-items: center;
+    justify-content: space-between;
+    a {
+      text-decoration: none;
+      color: #000;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.action_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  right: 120px;
+  bottom: 30px;
+  position: fixed;
+  z-index: 1;
+  @media screen and (max-width: 786px) {
+    right: 30px;
+  }
+}

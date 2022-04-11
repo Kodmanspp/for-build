@@ -1,0 +1,47 @@
+.delivery_title {
+    max-width: 530px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 41px;
+    color: #023739;
+}
+
+.delivery {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    h2 {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+
+        color: #000000;
+    }
+
+    p {
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+
+        color: #000000;
+
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .delivery {
+        max-width: 80%;
+    }
+}

@@ -1,0 +1,58 @@
+.card_wrapper {
+  background-color: #fff;
+  height: 400px;
+  width: 262px;
+  border-radius: 10px;
+  padding: 15px 0;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  .card_year {
+    position: absolute;
+    left: 0;
+    color: #b4b4cc;
+    border: 1px solid #b4b4cc;
+    border-radius: 1px;
+  }
+  .card_type {
+    position: absolute;
+    right: 0;
+    color: #e9a6a3;
+    font-weight: bold;
+    border: 1px solid #e9a6a3;
+    border-radius: 1px;
+  }
+  .card_clothes__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .card_about_clothes {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    .card_title {
+      font-weight: bold;
+    }
+    .price_wrapper {
+      display: flex;
+      align-items: flex-end;
+      h4 {
+        margin: 0;
+        font-weight: bold;
+      }
+    }
+    .card_about__title {
+      font-weight: bold;
+    }
+  }
+  .card_action_buttons {
+    display: flex;
+    justify-content: space-around;
+    button {
+      background-color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

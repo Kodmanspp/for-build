@@ -1,0 +1,16 @@
+.card_wrapper {
+  border: 1px solid #1f6d70;
+  height: 313x;
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  @media screen and (max-width: 991px) {
+    margin-bottom: 30px;
+  }
+  .profile_info {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+    margin-bottom: 10px;
+  }
+}

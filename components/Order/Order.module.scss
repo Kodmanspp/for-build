@@ -1,0 +1,178 @@
+.orderlist_wrapper {
+  border: 3px solid rgba(0, 0, 0, 0.092);
+  height: 477px;
+  border-radius: 10px;
+  max-width: 390px;
+  padding: 0 20px;
+  overflow: auto;
+  margin-right: 50px;
+  @media screen and (max-width: 991px) {
+    padding: 5px;
+    width: 100%;
+  }
+  .orderlist_header {
+    background-color: #c4c4c460;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 0 8px;
+    span {
+      font-size: 20px;
+    }
+  }
+  .orderlist_main {
+    .order_info {
+      padding: 10px 0;
+      border-bottom: 1px solid #000;
+      font-size: 16px;
+      .order_title__wrapper {
+        display: flex;
+        align-items: center;
+      }
+      div {
+        margin-bottom: 5px;
+      }
+      .order_title {
+        font-weight: bold;
+        margin-right: 8px;
+      }
+      .order_color {
+        height: 30px;
+        width: 30px;
+        background: #eccb26;
+        border: none;
+        border-radius: 50%;
+      }
+      .order_about__title {
+        font-weight: bold;
+      }
+      .card_about__wrapper {
+        display: flex;
+        font-weight: bold;
+        .order_about__info {
+          margin-right: 5px;
+        }
+        .order_about__child {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          .card_about__title_price {
+            padding-right: 20px;
+          }
+        }
+      }
+      .order_about__info {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.order_wrapper {
+  padding: 40px 100px;
+  h2 {
+    margin: 5px 0;
+    text-align: center;
+  }
+  display: flex;
+  @media screen and (max-width: 991px) {
+    display: block;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 40px 20px;
+  }
+  .order_left__side {
+    width: 80%;
+    @media screen and (max-width: 991px) {
+      margin-bottom: 50px;
+      width: 100%;
+    }
+  }
+  .order_right__side {
+    width: 100%;
+    .order_detail {
+      height: 265px;
+      border: 3px solid #16b468;
+      border-radius: 15px;
+      padding: 0 30px;
+      .order_detail_wrapper {
+        display: flex;
+        .order_detail__left {
+          width: 50%;
+          margin-right: 20px;
+          .order_detail__inputwrapper {
+            label {
+              font-size: 10px;
+              opacity: 0.6;
+            }
+          }
+          .order_detail__input {
+            border: none;
+            width: 100%;
+            outline: none;
+            font-size: 15px;
+            font-weight: bold;
+            border-bottom: 2px solid #16b468;
+          }
+        }
+        .order_detail__right {
+          width: 50%;
+          height: 100%;
+          .order_detail__inputwrapper {
+            label {
+              font-size: 10px;
+              opacity: 0.6;
+            }
+            .order_detail__input {
+              border: none;
+              width: 75%;
+              outline: none;
+              font-size: 15px;
+              font-weight: bold;
+              border-bottom: 2px solid #16b468;
+            }
+          }
+          .order_detail__textareawrapper {
+            label {
+              font-size: 10px;
+              opacity: 0.6;
+            }
+            textarea {
+              height: 120px;
+              resize: none;
+              border-radius: 5px;
+              padding: 5px 5px;
+              font-size: 14px;
+              width: 100%;
+              border: 1px solid rgba(0, 0, 0, 0.192);
+            }
+            .order_detail__textareawrapper {
+              border: none;
+              width: 100%;
+              outline: none;
+              font-size: 15px;
+              font-weight: bold;
+              border-bottom: 2px solid #16b468;
+            }
+          }
+        }
+      }
+    }
+    .order_delivery {
+      padding: 0 30px;
+      button {
+        margin-right: 30px;
+        border: none;
+        background-color: inherit;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .active {
+        color: #16b468;
+      }
+    }
+  }
+}

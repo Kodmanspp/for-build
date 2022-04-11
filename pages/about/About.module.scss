@@ -1,0 +1,135 @@
+.about_title {
+  max-width: 530px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 41px;
+  color: #023739;
+}
+.about_block {
+  display: flex;
+  padding-bottom: 43px;
+  margin-top: 30px;
+  justify-content: space-around;
+  background: #e1d7cd;
+  @media screen and (max-width: 991px) {
+    display: inline-block;
+  }
+  .about_one {
+    margin-top: 60px;
+    max-width: 692px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    @media screen and (max-width: 991px) {
+      padding: 20px 100px;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 20px 20px;
+    }
+  }
+  .about_two {
+    margin-top: 26px;
+    width: 201px;
+    height: 283px;
+    @media screen and (max-width: 991px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+}
+.about_block_two {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  background: #8e6051;
+  @media screen and (max-width: 991px) {
+    display: inline-block;
+  }
+  .about_one {
+    margin-top: 67px;
+    padding-bottom: 62px;
+    max-width: 872px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #ffffff;
+  }
+  .about_two_img {
+    margin-top: 26px;
+    width: 281px;
+    height: 387px;
+    @media screen and (max-width: 991px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+}
+
+.about_block_three {
+  margin-top: 30px;
+  background: #975844;
+  color: #fff;
+  padding: 15px 220px;
+  @media screen and (max-width: 991px) {
+    padding: 20px 20px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .brands_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div > div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      grid-gap: 5px;
+      span {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+.about_block_fourth {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #704b3f;
+  color: #fff;
+  padding: 15px 220px;
+  @media screen and (max-width: 991px) {
+    padding: 20px 20px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .brands_wrapper {
+    display: flex;
+    align-items: center;
+    div > div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      grid-gap: 5px;
+      span {
+        font-size: 30px;
+      }
+    }
+  }
+}

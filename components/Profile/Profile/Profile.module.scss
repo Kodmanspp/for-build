@@ -1,0 +1,42 @@
+.profile_block {
+  font-family: "Nunito", sans-serif;
+
+  form {
+    padding-left: 10px;
+    display: grid;
+    row-gap: 20px;
+
+    .submit_btn {
+      max-width: 315px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 32px;
+      color: #ffffff;
+      background: #115354;
+      border-radius: 30px;
+      padding: 10px 36px;
+      text-align: center;
+      margin-left: 100px;
+      outline: none;
+      border: none;
+    }
+  }
+
+  .input_blocks {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  .input_block {
+  }
+
+  .password_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+  }
+}

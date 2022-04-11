@@ -1,0 +1,46 @@
+.favorite {
+  background-color: #1f6d707e;
+  padding: 30px 150px;
+  @media screen and (max-width: 768px) {
+    padding: 30px 50px;
+  }
+  @media screen and (min-width: 1500px) {
+    padding: 30px 200px;
+  }
+  @media screen and (min-width: 1800px) {
+    padding: 30px 300px;
+  }
+  @media screen and (min-width: 1900px) {
+    padding: 30px 350px;
+  }
+  @media screen and (min-width: 2000px) {
+    padding: 30px 400px;
+  }
+  .all_catalog {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .all_catalog__button {
+      background-color: #1f6d70;
+      min-width: 186px;
+      height: 40px;
+      border-radius: 20px;
+      border: none;
+      color: #fff;
+    }
+  }
+  .favorite_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    @media screen and (max-width: 1200px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      grid-gap: 30px;
+    }
+  }
+}

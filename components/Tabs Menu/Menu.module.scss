@@ -1,0 +1,36 @@
+.menu {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  max-width: 330px;
+  min-height: 236px;
+  max-height: 236px;
+  border-radius: 20px;
+  background: #1f6d70;
+  padding: 40px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  .link {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    width: max-content;
+    cursor: pointer;
+    transition: 0.5s;
+
+    span {
+      margin-right: 3px !important;
+    }
+  }
+  .link_active {
+    transition: 0.5s;
+    font-weight: 800;
+  }
+}

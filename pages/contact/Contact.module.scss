@@ -1,0 +1,28 @@
+.contact_title {
+    max-width: 649px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 41px;
+    color: #023739;
+}
+.contact{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+    .contact_block_two{
+        margin-right: 210px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
